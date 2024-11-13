@@ -31,13 +31,12 @@
                     </div>
                 </header>
             @endif
-
             <!-- Page Content -->
             <main>
                 {{ $slot }}
             </main>
         </div>
-
+        {{ asset('js/app.js') }}
         @stack('modals')
 
         @livewireScripts

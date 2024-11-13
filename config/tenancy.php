@@ -18,15 +18,9 @@ return [
      */
     'central_domains' => [
         '127.0.0.1',
-        'localhost',
-        '.localhost',
+        'localhost'
     ],
-    'exempt_routes' => [
-        'dashboard',
-        'profile',
-        '/',
-        // Defina aqui as rotas que não são limitadas por tenant
-    ],
+
     /**
      * Tenancy bootstrappers are executed when tenancy is initialized.
      * Their responsibility is making Laravel features tenant-aware.
@@ -200,6 +194,6 @@ return [
      */
     'seeder_parameters' => [
         '--class' => 'DatabaseSeeder', // root seeder class
-        // '--force' => true,
+        '--force' => true,
     ],
 ];
