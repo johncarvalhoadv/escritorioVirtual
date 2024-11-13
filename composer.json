@@ -12,9 +12,13 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^3.4",
-        "stancl/tenancy": "^3.8"
+        "spatie/laravel-html": "^3.11",
+        "stancl/tenancy": "^3.8",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "phpoffice/phpword": "^1.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.14",
         "fakerphp/faker": "^1.9.1",
         "ibex/crud-generator": "^2.1",
         "laravel/pint": "^1.0",
